@@ -157,11 +157,11 @@ const Footer = () => {
                         <p className='privacypolicy text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] mt-[13px] sm:mt-[14px] md:mt-[15px] lg:mt-[16px] xl:mt-[20px] 2xl:mt-[24px] md:pr-[20px] xl:pr-[30%] text-center sm:!text-left sm:px-0 px-[20%] !text-[#A2A1A8]'>Corex crypto surges, disrupting traditional financial systems.
                         </p>
                       </div>
-                      <div className='flex justify-between items-center sm:items-start'>
+                      <div className='flex justify-center sm:justify-between items-center sm:items-start sm:gap-0 gap-10'>
                         <div className='flex items-center flex-col gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] justify-center relative'>
                           <div className='flex items-start flex-col gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] justify-center relative'>
                           <a className='privacypolicy text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] !text-[#FDFCFF] '>Function</a>
-                            <ul className='flex justify-start flex-col gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] footeritesm figtree text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] opacity-50'>
+                            <ul className='flex ustify-center sm:justify-start flex-col gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] footeritesm figtree text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] opacity-50'>
                               <a className='privacypolicy duration-300 text-[#B3BEBF] hover:text-[#00C8FF] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] cursor-pointer'>Partner</a>
                               <a className='privacypolicy duration-300 text-[#B3BEBF] hover:text-[#00C8FF] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] cursor-pointer'>Social</a>
                             </ul>
@@ -170,7 +170,7 @@ const Footer = () => {
                         <div className='flex items-center sm:items-end flex-col gap-[14px] sm:gap-[15px] md:gap-[16px] lg:gap-[20px] xl:gap-[24px] 2xl:gap-[30px] justify-center relative'>
                           <div className='flex items-start flex-col gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] justify-center relative'>
                           <a className='privacypolicy text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] !text-[#FDFCFF] '>Tokenomics</a>
-                            <ul className='flex justify-start flex-col gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] footeritesm figtree text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] opacity-50'>
+                            <ul className='flex ustify-center sm:justify-start flex-col gap-[11px] sm:gap-[12px] md:gap-[13px] lg:gap-[14px] xl:gap-[15px] 2xl:gap-[16px] footeritesm figtree text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] opacity-50'>
                               <a className='privacypolicy duration-300 text-[#B3BEBF] hover:text-[#00C8FF] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] cursor-pointer'>Roadmap</a>
                               <a className='privacypolicy duration-300 text-[#B3BEBF] hover:text-[#00C8FF] text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] cursor-pointer'>Team</a>
                             </ul> 

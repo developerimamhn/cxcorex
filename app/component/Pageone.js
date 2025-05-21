@@ -26,7 +26,7 @@ const imageVariants = {
 export default function Pageone() {
   return (
     <div className="">
-      <div className="container mx-auto">
+      <div className="container mx-auto sm:px-0 px-6">
         <div className="flex items-center justify-between  gap-[36px] sm:gap-[40px] md:gap-[48px] lg:gap-[64px] xl:gap-[96px]">
           {images.map((src, index) => (
             <motion.div

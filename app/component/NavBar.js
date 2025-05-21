@@ -118,8 +118,8 @@ const NavBar = () => {
                 </div>
                  
 
-                <nav ref={menuRef} className={`navbar-items-main absolute ml-auto sm:left-0 sm:relative duration-1000 z-[99] sm:opacity-100 flex justif-start sm:justify-center items-start sm:items-center gap-[16px] sm:gap-[20px] md:gap-[24px] lg:gap-[32px] xl:gap-[36px] 2xl:gap-[40px] sm:blur-none blur-[200] sm:bg-transparent bg-[#15161B] right-0 sm:flex-row flex-col p-[20px] sm:p-[0] sm:w-fit w-full  sm:h-full pl-[24px] sm:pl-[32px] md:pl-[36px] lg:pl-[40px] xl:pl-[48px] 2xl:pl-[60px]
-                    ${toggle ? 'top-[67px] h-screen' :'-top-[500%]' }
+                <nav ref={menuRef} className={`navbar-items-main absolute ml-auto sm:left-0 sm:relative duration-1000 z-[99] sm:opacity-100 flex justif-start sm:justify-center items-start sm:items-center gap-[16px] sm:gap-[20px] md:gap-[24px] lg:gap-[32px] xl:gap-[36px] 2xl:gap-[40px] sm:blur-none blur-[200] sm:bg-transparent bg-[#0e1116f0] right-0 sm:flex-row flex-col p-[20px] sm:p-[0] sm:w-fit w-full  sm:h-full pl-[24px] sm:pl-[32px] md:pl-[36px] lg:pl-[40px] xl:pl-[48px] 2xl:pl-[60px]
+                    ${toggle ? 'top-[66px] h-screen' :'-top-[500%]' }
                     ${toggle ? 'opacity-100' : 'opacity-10'} 
                     `} >
                     <a className="cursor-pointer Link-manu-bar flex items-center gap-[6px] lg:gap-[8px]" href="#Partner" onClick={(e) => handleScroll(e, "Partner")}>

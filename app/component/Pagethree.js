@@ -113,7 +113,7 @@ const Pagethree = () => {
                         <div className='flex justify-center items-center flex-col w-full sm:gap-0 gap-6'>
                           <h2 className='speciasda relative text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] !text-center px-[20%]
                           '>
-                            <svg className='absolute -z-[1] -left-3 sm:-left-0 top-0 sm:top-1/2 w-1/3 sm:w-1/3' viewBox="0 0 529 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className='absolute sm:block hidden -z-[1] -left-3 sm:-left-0 top-0 sm:top-1/2 w-1/3 sm:w-1/3' viewBox="0 0 529 322" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M529 1.36499H306H201.706C197.124 1.36499 192.761 3.32993 189.724 6.76176L87.0179 122.825C84.4291 125.75 83 129.521 83 133.428V243.365" stroke="url(#paint0_linear_356_822)"/>
                             <g filter="url(#filter0_f_356_822)">
                             <circle cx="83" cy="238.365" r="17" fill="#D84124"/>
@@ -138,16 +138,16 @@ const Pagethree = () => {
                             Understanding the Differences</h2>
                       </div>
                       <div className='grid grid-cols-1 sm:grid-cols-12 relative items-center justify-between gap-[15px] sm:gap-[16px] md:gap-[20px] lg:gap-[24px] xl:gap-[32px] 2xl:gap-[36px] pt-[36px] sm:pt-[40px]'>
-                        <div className='col-span-7 pl-[36px] sm:pl-[40px] md:pl-[48px] lg:pl-[70px] xl:pl-[110px] 2xl:pl-[136px] flex items-start justify-start gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] flex-col'>
-                          <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px]'>Difference</h2>
-                          <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px]'>The COREx platform is crafted to facilitate ease of use for individuals unfamiliar with Web3 and DEXes, minimizing learning barriers. Our efforts are focused on the strategic incorporation and innovative advancements of Uni V3 within the CORE blockchain ecosystem, </div>
+                        <div className='col-span-7 sm:pl-[40px] md:pl-[48px] lg:pl-[70px] xl:pl-[110px] 2xl:pl-[136px] flex items-center sm:items-start justify-center sm:justify-start gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] flex-col'>
+                          <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px] text-center sm:text-left'>Difference</h2>
+                          <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center sm:text-left'>The COREx platform is crafted to facilitate ease of use for individuals unfamiliar with Web3 and DEXes, minimizing learning barriers. Our efforts are focused on the strategic incorporation and innovative advancements of Uni V3 within the CORE blockchain ecosystem, </div>
                         </div>
                         <div className='w-full col-span-4 '>
                           <div className='relative'>
                           <Image className='w-full' src={slide1} alt='loading.. '/>
                           <Image className='w-full absolute right-0 top-0 ' src={slide2} alt='loading.. '/>
                           </div>
-                          <svg className='absolute -right-6  sm:right-0 top-2/3 sm:top-1/2 translate-y-1/6 w-1/2 sm:w-1/3 -z-[1]' viewBox="0 0 529 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg className='absolute -right-6  sm:right-0 top-2/3 sm:top-1/2 translate-y-1/6 w-1/2 sm:w-1/3 -z-[1] sm:block hidden' viewBox="0 0 529 446" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0 1.36499H223H327.686C332.04 1.36499 336.205 3.13877 339.222 6.27724L441.535 112.72C444.4 115.7 446 119.674 446 123.808V355.365" stroke="url(#paint0_linear_356_802)"/>
                           <g filter="url(#filter0_f_356_802)">
                           <circle cx="17" cy="17" r="17" transform="matrix(-1 0 0 1 463 345.365)" fill="#D84124"/>
@@ -201,11 +201,11 @@ const Pagethree = () => {
                           </defs>
                           </svg>
                         </div>
-                        <div className='col-span-7  flex items-end justify-end gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] flex-col'>
-                          <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px]  !text-right'>Social</h2>
-                          <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-right'>COREx believes in the power of community and is ready to be powered by you. To start, we are establishing a Social function, where peer-to-peer discussion can take place for to operational recommendations for COREx, we are all ears.</div>
+                        <div className='col-span-7  flex items-center sm:items-end justify-center sm:justify-end gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] flex-col'>
+                          <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px] !text-center  sm:!text-right'>Social</h2>
+                          <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] sm:text-right text-center '>COREx believes in the power of community and is ready to be powered by you. To start, we are establishing a Social function, where peer-to-peer discussion can take place for to operational recommendations for COREx, we are all ears.</div>
                         </div>
-                        <div className='w-full col-span-5 sm:hidden block'>
+                        {/* <div className='w-full col-span-5 sm:hidden block'>
                           <div className='relative'>
                           <Image className='w-full' src={slide3} alt='loading.. '/>
                           <Image className='w-full absolute right-0 top-0 ' src={slide4} alt='loading.. '/>
@@ -232,13 +232,13 @@ const Pagethree = () => {
                           </linearGradient>
                           </defs>
                           </svg>
-                        </div>
+                        </div> */}
                       </div>
                       {/* ssvs */}
                       <div className='grid grid-cols-1 sm:grid-cols-12 relative items-center justify-between gap-[15px] sm:gap-[16px] md:gap-[20px] lg:gap-[24px] xl:gap-[32px] 2xl:gap-[36px] pt-[36px] sm:pt-[40px] md:pt-[48px] lg:pt-[60px]'>
-                        <div className='col-span-7 pl-[36px] sm:pl-[40px] md:pl-[48px] lg:pl-[70px] xl:pl-[110px] 2xl:pl-[136px] flex items-start justify-start gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] flex-col'>
-                          <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px]'>AI</h2>
-                          <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px]'>COREx is strategically positioning itself to pioneer the next wave of growth within the CoreDao ecosystem through the application of artificial intelligence. Access to our AI features will be an exclusive benefit for COREx token stakers.</div>
+                        <div className='col-span-7 sm:pl-[40px] md:pl-[48px] lg:pl-[70px] xl:pl-[110px] 2xl:pl-[136px] flex items-center sm:items-start justify-center sm:justify-start gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] flex-col'>
+                          <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px] text-center sm:text-left'>AI</h2>
+                          <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center sm:text-left'>COREx is strategically positioning itself to pioneer the next wave of growth within the CoreDao ecosystem through the application of artificial intelligence. Access to our AI features will be an exclusive benefit for COREx token stakers.</div>
                         </div>
                         <div className='w-full col-span-4 '>
                           <div className='relative'>

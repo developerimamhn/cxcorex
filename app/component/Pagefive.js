@@ -175,7 +175,7 @@ const Pagefive = () => {
               <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Understanding where you stand presently and where the market is heading is crucial. Conducting a thorough SWOT analysis</div>
             </div>
               <div className='relative '>
-                <svg className='w-full absolute left-0 top-1/2 -translate-y-1/2' viewBox="0 0 1920 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className='h-full w-full absolute left-0 top-1/2 -translate-y-1/2 sm:rotate-0 rotate-90' viewBox="0 0 1920 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="1.36523" x2="1920" y2="1.36523" stroke="url(#paint0_linear_356_1083)" stroke-width="2"/>
                 <defs>
                 <linearGradient id="paint0_linear_356_1083" x1="-4.40099e-06" y1="2.45347" x2="0.0404991" y2="11.5709" gradientUnits="userSpaceOnUse">
@@ -187,14 +187,13 @@ const Pagefive = () => {
 
 
 
-                  <div className='relative container mx-auto sm:px-0 px-6 mt-[32px] sm:mt-[36px] md:mt-[40px] lg:mt-[48px] xl:mt-[64px] 2xl:mt-[80px]'>
-                    <div className='flex flex-col '>
-                      <div className='text-amber-700 grid grid-cols-2 items-end justify-around'>
-                        
+                  <div className='relative container mx-auto sm:px-0 px-6 mt-[50px] sm:mt-[36px] md:mt-[40px] lg:mt-[48px] xl:mt-[64px] 2xl:mt-[80px]'>
+                    <div className='flex flex-row sm:flex-col justify-between my-auto'>
+                      <div className='text-amber-700 grid sm:grid-cols-2 items-end justify-around sm:gap-0 gap-6'>
                         <div className='flex items-center justify-center flex-col xl:ml-30 2xl:ml-45 relative'>
                           <h3 className='date text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]'>March 30th</h3>
                           <p className='disdate text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>OREx Arrives Testnet, <br/> Seed round.</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px]' viewBox="0 0 54 112" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] sm:rotate-0 -rotate-90 sm:relative absolute -right-12 sm:right-0 ' viewBox="0 0 54 112" fill="none">
                           <path d="M28 71.3652C28 71.9175 27.5523 72.3652 27 72.3652C26.4477 72.3652 26 71.9175 26 71.3652L28 71.3652ZM27 10.6986C24.0545 10.6986 21.6667 8.31075 21.6667 5.36523C21.6667 2.41972 24.0545 0.0318986 27 0.0318985C29.9455 0.0318984 32.3333 2.41972 32.3333 5.36523C32.3333 8.31075 29.9455 10.6986 27 10.6986ZM27 71.3652L26 71.3652L26 5.36523L27 5.36523L28 5.36523L28 71.3652L27 71.3652Z" fill="url(#paint0_linear_356_1110)"/>
                           <circle cx="13" cy="13" r="20" transform="matrix(1 0 0 -1 14 97.3652)" fill="url(#paint1_linear_356_1110)" stroke="#5E2116" stroke-width="14"/>
                           <defs>
@@ -210,10 +209,10 @@ const Pagefive = () => {
                         </svg>
                         
                         </div>
-                        <div className='flex items-center justify-center flex-col'>
+                        <div className='flex items-center justify-center flex-col relative'>
                           <h3 className='date text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]'>May 15th</h3>
                           <p className='disdate text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>AI function live.</p>
-                          <svg xmlns="http://www.w3.org/2000/svg" className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px]' viewBox="0 0 54 112" fill="none">
+                          <svg xmlns="http://www.w3.org/2000/svg" className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] sm:rotate-0 -rotate-90 sm:relative absolute -right-12 sm:right-0' viewBox="0 0 54 112" fill="none">
                           <path d="M28 71.3652C28 71.9175 27.5523 72.3652 27 72.3652C26.4477 72.3652 26 71.9175 26 71.3652L28 71.3652ZM27 10.6986C24.0545 10.6986 21.6667 8.31075 21.6667 5.36523C21.6667 2.41972 24.0545 0.0318986 27 0.0318985C29.9455 0.0318984 32.3333 2.41972 32.3333 5.36523C32.3333 8.31075 29.9455 10.6986 27 10.6986ZM27 71.3652L26 71.3652L26 5.36523L27 5.36523L28 5.36523L28 71.3652L27 71.3652Z" fill="url(#paint0_linear_356_1110)"/>
                           <circle cx="13" cy="13" r="20" transform="matrix(1 0 0 -1 14 97.3652)" fill="url(#paint1_linear_356_1110)" stroke="#5E2116" stroke-width="14"/>
                           <defs>
@@ -229,10 +228,10 @@ const Pagefive = () => {
                         </svg>
                         </div>
                       </div>
-                      <div className='grid grid-cols-3 items-start justify-between -mt-[20px] xl:-mt-[50px]'>
+                      <div className='grid sm:grid-cols-3 items-center sm:items-start justify-start sm:justify-between -mt-[20px] xl:-mt-[50px] sm:gap-0 gap-9'>
                         <div className='flex items-start justify-srart'>
                         <div className='flex items-center justify-center flex-col relative '>
-                          <svg className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] left-0' viewBox="0 0 54 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] sm:rotate-0 -rotate-90 sm:relative absolute -left-12 sm:left-0' viewBox="0 0 54 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M28 48.3652C28 47.8129 27.5523 47.3652 27 47.3652C26.4477 47.3652 26 47.8129 26 48.3652L28 48.3652ZM27 109.032C24.0545 109.032 21.6667 111.42 21.6667 114.365C21.6667 117.311 24.0545 119.699 27 119.699C29.9455 119.699 32.3333 117.311 32.3333 114.365C32.3333 111.42 29.9455 109.032 27 109.032ZM27 48.3652L26 48.3652L26 114.365L27 114.365L28 114.365L28 48.3652L27 48.3652Z" fill="url(#paint0_linear_356_1086)"/>
                           <circle cx="27" cy="27.3652" r="20" fill="url(#paint1_linear_356_1086)" stroke="#5E2116" stroke-width="14"/>
                           <defs>
@@ -250,8 +249,8 @@ const Pagefive = () => {
                           <p className='disdate text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>Birth, Ecosystem fund <br/> invested.</p>
                         </div>
                         </div>
-                        <div className='flex items-center justify-center flex-col'>
-                          <svg className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] left-0' viewBox="0 0 54 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div className='flex items-center justify-center flex-col relative'>
+                          <svg className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] sm:rotate-0 -rotate-90 sm:relative absolute -left-12 sm:left-0' viewBox="0 0 54 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M28 48.3652C28 47.8129 27.5523 47.3652 27 47.3652C26.4477 47.3652 26 47.8129 26 48.3652L28 48.3652ZM27 109.032C24.0545 109.032 21.6667 111.42 21.6667 114.365C21.6667 117.311 24.0545 119.699 27 119.699C29.9455 119.699 32.3333 117.311 32.3333 114.365C32.3333 111.42 29.9455 109.032 27 109.032ZM27 48.3652L26 48.3652L26 114.365L27 114.365L28 114.365L28 48.3652L27 48.3652Z" fill="url(#paint0_linear_356_1086)"/>
                           <circle cx="27" cy="27.3652" r="20" fill="url(#paint1_linear_356_1086)" stroke="#5E2116" stroke-width="14"/>
                           <defs>
@@ -268,9 +267,9 @@ const Pagefive = () => {
                           <h3 className='date text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]'>April 15th</h3>
                           <p className='disdate text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>Social function live.</p>
                         </div>
-                        <div className='flex items-end justify-end'>
+                        <div className='flex items-center sm:items-end justify-center sm:justify-end relative'>
                         <div className='flex items-center justify-center flex-col'>
-                          <svg className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] left-0' viewBox="0 0 54 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg className='w-[24px] sm:w-[32px] md:w-[36px] lg:w-[40px] xl:w-[48px] 2xl:w-[54px] sm:rotate-0 -rotate-90 sm:relative absolute -left-12 sm:left-0' viewBox="0 0 54 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M28 48.3652C28 47.8129 27.5523 47.3652 27 47.3652C26.4477 47.3652 26 47.8129 26 48.3652L28 48.3652ZM27 109.032C24.0545 109.032 21.6667 111.42 21.6667 114.365C21.6667 117.311 24.0545 119.699 27 119.699C29.9455 119.699 32.3333 117.311 32.3333 114.365C32.3333 111.42 29.9455 109.032 27 109.032ZM27 48.3652L26 48.3652L26 114.365L27 114.365L28 114.365L28 48.3652L27 48.3652Z" fill="url(#paint0_linear_356_1086)"/>
                           <circle cx="27" cy="27.3652" r="20" fill="url(#paint1_linear_356_1086)" stroke="#5E2116" stroke-width="14"/>
                           <defs>
