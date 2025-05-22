@@ -170,6 +170,7 @@ const Pagefive = () => {
   }, []);
     return (
         <div id='NewsFeed' className='relative'>
+          
           <div className='sm:px-[22%] px-6'>
               <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px] text-center'>Road Map</h2>
               <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Understanding where you stand presently and where the market is heading is crucial. Conducting a thorough SWOT analysis</div>
