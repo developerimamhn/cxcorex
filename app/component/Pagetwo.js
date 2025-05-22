@@ -258,10 +258,10 @@ const Pagetwo = () => {
                   >
                     {item.svgPath}
                   </svg>
-                  <h3 className="hightreac text-[15px] sm:text-[16px] md:text-[20px] lg:text-[24px] xl:text-[32px] 2xl:text-[35px] pb-[10px] sm:pb-[11px] md:pb-[12px]  pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[75px] text-center">
+                  <h3 className="hightreac text-[18px] sm:text-[16px] md:text-[20px] lg:text-[24px] xl:text-[32px] 2xl:text-[35px] pb-[10px] sm:pb-[11px] md:pb-[12px]  pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[75px] text-center">
                     {item.title}
                   </h3>
-                  <p className="outtrescosn text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] text-center pb-[14px] sm:pb-[15px] md:pb-[16px] lg:pb-[20px] xl:pb-[24px] 2xl:pb-[32px]">
+                  <p className="outtrescosn text-[14px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] text-center pb-[14px] sm:pb-[15px] md:pb-[16px] lg:pb-[20px] xl:pb-[24px] 2xl:pb-[32px]">
                     <span className='expersowrks'>{item.spantitle} </span>
                     {item.description}
                   </p>

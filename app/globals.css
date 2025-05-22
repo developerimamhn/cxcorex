@@ -853,14 +853,14 @@ background: rgba(175, 50, 16, 0.20);
 
   .enterimail{
     color: var(--Color-Paragraph, #7F8799);
-    font-family: "Inter";
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 18.8px */
   }
   .subscriobesec{
     color: #D0D1E3;
-    font-family: "Inter";
+    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 26.32px */
@@ -1613,4 +1613,14 @@ background: linear-gradient(180deg, #010214 0%, #010214 16.55%, #4E27BC 63.32%, 
 .animate-spin-slow {
   animation: spin-slow 10s linear infinite;
 }
+.iteaedmlseaws{
+  align-items: normal;
 }
+@media (max-width: 639px) {
+  .iteaedmlseaws {
+    align-items: center; /* Example: Change to flex-start for mobile */
+  }
+}
+}
+
+

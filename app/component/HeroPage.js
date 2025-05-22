@@ -111,8 +111,8 @@ const HeroPage = () => {
                     </svg>
                 </button>
                   </div>
-                  <div className='relative'>
-                    <Image className='w-9/10' src={image1} alt='loadn...'/>
+                  <div className='relative flex items-center justify-center sm:block'>
+                    <Image className='w-1/2 sm:w-9/10' src={image1} alt='loadn...'/>
                     {/* <Image className='absolute top-1/2 left-1/2 -translate-1/2 w-[183.453px]' src={image2} alt='loading...'/> */}
                   </div>
                 </div>

@@ -176,7 +176,7 @@ const Pagefive = () => {
               <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Understanding where you stand presently and where the market is heading is crucial. Conducting a thorough SWOT analysis</div>
             </div>
               <div className='relative '>
-                <svg className='h-full w-full absolute left-0 top-1/2 -translate-y-1/2 sm:rotate-0 rotate-90' viewBox="0 0 1920 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className='h-full w-3/5 sm:w-full absolute left-1/2 top-1/2 -translate-1/2 sm:rotate-0 rotate-90' viewBox="0 0 1920 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="1.36523" x2="1920" y2="1.36523" stroke="url(#paint0_linear_356_1083)" stroke-width="2"/>
                 <defs>
                 <linearGradient id="paint0_linear_356_1083" x1="-4.40099e-06" y1="2.45347" x2="0.0404991" y2="11.5709" gradientUnits="userSpaceOnUse">
@@ -189,8 +189,8 @@ const Pagefive = () => {
 
 
                   <div className='relative container mx-auto sm:px-0 px-6 mt-[50px] sm:mt-[36px] md:mt-[40px] lg:mt-[48px] xl:mt-[64px] 2xl:mt-[80px]'>
-                    <div className='flex flex-row sm:flex-col justify-between my-auto'>
-                      <div className='text-amber-700 grid sm:grid-cols-2 items-end justify-around sm:gap-0 gap-6'>
+                    <div className='flex flex-row sm:flex-col justify-between my-auto iteaedmlseaws gap-5 sm:gap-0'>
+                      <div className='text-amber-700 grid sm:grid-cols-2 items-end justify-around sm:gap-0 gap-6 mb-8 sm:mb-0'>
                         <div className='flex items-center justify-center flex-col xl:ml-30 2xl:ml-45 relative'>
                           <h3 className='date text-[14px] sm:text-[15px] md:text-[16px] lg:text-[20px] xl:text-[24px] 2xl:text-[32px]'>March 30th</h3>
                           <p className='disdate text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px]'>OREx Arrives Testnet, <br/> Seed round.</p>

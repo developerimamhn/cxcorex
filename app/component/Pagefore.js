@@ -201,7 +201,7 @@ const Pageone = () => {
            
       <div className="relative">
           <div className='container mx-auto'>
-            <div className='px-[22%]'>
+            <div className='px-[10%] sm:px-[22%]'>
               <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px] text-center'>Tokenomics</h2>
               <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Feel free to adjust it according to your specific needs or preferences! Let me know if you need further assistance.</div>
             </div>
