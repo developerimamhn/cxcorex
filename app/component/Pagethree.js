@@ -103,7 +103,7 @@ const Pagethree = () => {
 
   
     return ( 
-        <div id='Ecosystem' ref={wrapperRef} className='relative '>
+        <div id='Social' ref={wrapperRef} className='relative '>
             <svg className="h-full absolute bottom-[-22%] right-0 -z-[1] sm:block hidden" viewBox="0 0 1211 1977" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1641.03 841.449C1817.29 923.535 1690.66 1210.1 1695.13 1383.42C1699.6 1556.74 1719.31 1578.18 1662.49 1673.38C1605.67 1768.58 1531.85 1819.91 1422.39 1840.36C1312.93 1860.81 1225.21 1839.65 1137.08 1771.54C1048.95 1703.42 1059.36 1676.35 999.357 1513.41C939.355 1350.46 715.392 1129.4 849.074 989.406" stroke="white" stroke-opacity="0.03"/>
           <path d="M1629.37 862.103C1797.62 940.458 1676.74 1214 1681.01 1379.44C1685.27 1544.88 1704.09 1565.35 1649.85 1656.22C1595.61 1747.09 1525.15 1796.09 1420.67 1815.61C1316.18 1835.13 1232.45 1814.93 1148.33 1749.91C1064.2 1684.89 1074.14 1659.05 1016.86 1503.52C959.587 1347.98 745.804 1136.96 873.41 1003.33" stroke="white" stroke-opacity="0.03"/>
@@ -167,10 +167,10 @@ const Pagethree = () => {
                             </svg>
                             Understanding the Differences</h2>
                       </div>
-                      <div className='grid grid-cols-1 sm:grid-cols-12 relative items-center justify-between gap-[15px] sm:gap-[16px] md:gap-[20px] lg:gap-[24px] xl:gap-[32px] 2xl:gap-[36px] pt-[36px] sm:pt-[40px]'>
+                      <div className='grid grid-cols-4 sm:grid-cols-12 relative items-center justify-between gap-[15px] sm:gap-[16px] md:gap-[20px] lg:gap-[24px] xl:gap-[32px] 2xl:gap-[36px] pt-[36px] sm:pt-[40px]'>
                         <div className='w-full col-span-4 sm:hidden block'>
                           <div className='relative flex items-center justify-center'>
-                          <Image className='w-1/2' src={slide1} alt='loading.. '/>
+                          <Image className='w-4/6 ml-10' src={slide1} alt='loading.. '/>
                           <Image className='w-full absolute right-0 -top-20 ' src={slide2} alt='loading.. '/>
                           </div>
                           <svg className='absolute -right-6  sm:right-0 top-2/3 sm:top-1/2 translate-y-1/6 w-1/2 sm:w-1/3 -z-[1] sm:block hidden' viewBox="0 0 529 446" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -268,7 +268,7 @@ const Pagethree = () => {
                       <div className='grid grid-cols-1 sm:grid-cols-12 relative items-center justify-between gap-[15px] sm:gap-[16px] md:gap-[20px] lg:gap-[24px] xl:gap-[32px] 2xl:gap-[36px] pt-[36px] sm:pt-[40px] md:pt-[48px] lg:pt-[60px]'>
                         <div className='w-full col-span-4 sm:hidden block'>
                           <div className='relative flex items-center justify-center'>
-                          <Image className='w-1/2' src={slide5} alt='loading.. '/>
+                          <Image className='w-1/2 ml-10' src={slide5} alt='loading.. '/>
                           <Image className='w-1/2 absolute right-12 top-0 ' src={slide6} alt='loading.. '/>
                           </div>
                         </div>
@@ -278,7 +278,7 @@ const Pagethree = () => {
                         </div>
                         <div className='w-full col-span-4 sm:block hidden'>
                           <div className='relative'>
-                          <Image className='w-full' src={slide5} alt='loading.. '/>
+                          <Image className='w-full ' src={slide5} alt='loading.. '/>
                           <Image className='w-full absolute right-0 top-0 ' src={slide6} alt='loading.. '/>
                           </div>
                         </div>

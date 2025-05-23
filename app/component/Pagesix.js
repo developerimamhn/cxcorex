@@ -142,9 +142,9 @@ const Pagesix = () => {
               <div className='relative'>
                 <Image className='w-full h-auto ' src={bglastsec} alt="lloading..."/>
                 <div className='absolute top-0 left-0 z-[1] w-full'>
-                <div className='sm:px-[22%] px-6 pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[80px] pb-[20px] sm:pb-[24px] md:pb-[32px] lg:pb-[36px] xl:pb-[40px] 2xl:pb-[50px]'>
+                <div className='sm:px-[22%] px-10 pt-[28px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[80px] pb-[16px] sm:pb-[24px] md:pb-[32px] lg:pb-[36px] xl:pb-[40px] 2xl:pb-[50px]'>
                   <h2 className='diasdtasclaroad text-[20px] sm:text-[24px] md:text-[32px] lg:text-[36px] xl:text-[40px] 2xl:text-[48px] text-center'>Join Corex Community</h2>
-                  <div className='cosplaformions text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Follow us on our socials and join the conversation on the future of Web3</div>
+                  <div className='cosplaformions text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[22px] text-center pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Follow us on our socials and join the conversation on the future of Web3</div>
                 </div>
                 <div className='flex items-center justify-center gap-2 sm:gap-2 lg:gap-3'>
                   <svg className='w-[32px] sm:w-[36px] md:w-[40px] lg:w-[48px] xl:w-[64px] 2xl:w-[76px] cursor-pointer hover:scale-105 duration-200' viewBox="0 0 75 76" fill="none" xmlns="http://www.w3.org/2000/svg">

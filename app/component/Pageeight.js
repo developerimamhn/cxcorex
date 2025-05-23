@@ -85,7 +85,7 @@ const teamMembers = [
 
   
     return (
-        <div className='py-[50px] sm:py-[70px] md:py-[90px] lg:py-[120px] xl:py-[160px] 2xl:py-[190px] relative'>
+        <div id='Team' className='py-[50px] sm:py-[70px] md:py-[90px] lg:py-[120px] xl:py-[160px] 2xl:py-[190px] relative'>
           <svg className="w-1/2 absolute -bottom-1/2 left-0 -z-[1]" viewBox="0 0 1107 1803" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M-181.841 404.166C-358.102 486.252 -231.466 772.817 -235.935 946.136C-240.405 1119.45 -260.114 1140.9 -203.294 1236.1C-146.473 1331.29 -72.6571 1382.63 36.8019 1403.08C146.261 1423.53 233.977 1402.37 322.109 1334.25C410.242 1266.14 399.834 1239.07 459.836 1076.12C519.838 913.178 743.801 692.114 610.118 552.123" stroke="white" stroke-opacity="0.03"/>
           <g filter="url(#filter0_f_356_603)">

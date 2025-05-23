@@ -225,20 +225,20 @@ const Pagetwo = () => {
 
     
     return (
-        <div ref={wrapperRef} id='Devolopers'  className='pt-[60px] md:pt-[90px] lg:pt-[110px] xl:pt-[140px] 2xl:pt-[180px] px-6 sm:px-0 pb-[60px] sm:pb-[80px] md:pb-[100px] lg:pb-[130px] xl:pb-[160px] 2xl:pb-[180px] relative '>
+        <div ref={wrapperRef} id='Function'  className='pt-[60px] md:pt-[90px] lg:pt-[110px] xl:pt-[140px] 2xl:pt-[180px] px-6 sm:px-0 pb-[60px] sm:pb-[80px] md:pb-[100px] lg:pb-[130px] xl:pb-[160px] 2xl:pb-[180px] relative '>
           <Image  src={backgrundtexxt} alt='loading...' className=' mr-[24px] sm:mr-[32px] md:mr-[36px] lg:mr-[40px] xl:mr-[48px] 2xl:mr-[64px] w-[40px] sm:w-[60px] md:w-[90px] lg:w-[118px] xl:w-[164px] 2xl:w-[185px]  absolute right-0  -bottom-[32px] sm:-bottom-[36px] md:-bottom-[40px] lg:-bottom-[48px] xl:-bottom-[64px] 2xl:-bottom-[96px]' />
             <div className='container relative mx-auto px-[15px] sm:px-[16px] md:px-[20px] lg:px-[24px] xl:px-[32px] 2xl:px-[36px]'>
             <Image src={smslide1} alt='loading...' className='w-[32px] sm:w-[36px] md:w-[40px] lg:w-[48px] xl:w-[64px] 2xl:w-[96px] h-[32px] sm:h-[36px] md:h-[40px] lg:h-[48px] xl:h-[64px] 2xl:h-[96px] absolute left-0 top-0 animate-spin-slow' />
             
             
               <h2 className='piconsaisasz text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[64px] pb-[13px] sm:pb-[14px] md:pb-[15px] lg:pb-[16px] xl:pb-[20px] 2xl:pb-[24px]'>Main Functions</h2>
-              <div className="grid grid-cols-12 gap-y-[32px] sm:gap-y-[36px] md:gap-y-[40px] lg:gap-y-[48px] xl:gap-y-[64px] 2xl:gap-y-[96px] gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] pt-[36px] sm:pt-[40px] md:pt-[48px] lg:pt-[64px] xl:pt-[96px] 2xl:pt-[115px]">
+              <div className="grid grid-cols-12 gap-y-[40px] sm:gap-y-[36px] md:gap-y-[40px] lg:gap-y-[48px] xl:gap-y-[64px] 2xl:gap-y-[96px] gap-[12px] sm:gap-[13px] md:gap-[14px] lg:gap-[15px] xl:gap-[16px] 2xl:gap-[20px] pt-[36px] sm:pt-[40px] md:pt-[48px] lg:pt-[64px] xl:pt-[96px] 2xl:pt-[115px]">
               {cardData.map((item, index) => (
                 <div
                   key={index}
                   className="col-span-12 sm:col-span-6 lg:col-span-4 relative flex flex-col items-center justify-center sectionraping pb-[16px] sm:pb-[20px] md:pb-[24px] lg:pb-[32px] xl:pb-[36px] 2xl:pb-[40px] px-[20px] sm:px-[24px] md:px-[32px] lg:px-[36px] xl:px-[40px] 2xl:px-[46px]"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-[50px] sm:w-[60px] md:w-[80px] lg:w-[100px] xl:w-[120px] 2xl:w-[144px] absolute -top-0 left-1/2 -translate-x-1/2" viewBox="0 0 300 164" fill="none">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-[90px] sm:w-[60px] md:w-[80px] lg:w-[100px] xl:w-[120px] 2xl:w-[180px] absolute -top-0 left-1/2 -translate-x-1/2" viewBox="0 0 300 164" fill="none">
                     <g filter="url(#filter0_f_356_859)">
                       <circle cx="150" cy="14.365" r="72" fill="#ED8B34" fill-opacity="0.4"/>
                     </g>
@@ -251,7 +251,7 @@ const Pagetwo = () => {
                     </defs>
                   </svg>
                   <svg
-                    className="w-[32px] sm:w-[36px] md:w-[40px] lg:w-[48px] xl:w-[64px] 2xl:w-[80px] absolute -top-[16px] sm:-top-[18px] md:-top-[20px] lg:-top-[24px] xl:-top-[32px] 2xl:-top-[51.5px] left-1/2 -translate-x-1/2"
+                    className="w-[44px] sm:w-[36px] md:w-[40px] lg:w-[48px] xl:w-[64px] 2xl:w-[80px] absolute -top-[22px] sm:-top-[18px] md:-top-[20px] lg:-top-[24px] xl:-top-[32px] 2xl:-top-[51.5px] left-1/2 -translate-x-1/2"
                     viewBox="0 0 103 104"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
